@@ -9,7 +9,7 @@ import chess.domain.game.Board;
 import chess.domain.piece.Position;
 
 public class FinishedTest {
-	private State state = new Finished(Board.EMPTY);
+	private State state = new Finished(Board.EMPTY, turn);
 
 	@Test
 	@DisplayName("피니시드 생성")
